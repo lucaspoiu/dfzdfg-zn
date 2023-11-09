@@ -1,0 +1,99 @@
+   .banner {
+       background: var(--azul-degrade);
+       color: var(--branco)
+       text-aling; center;
+       padding: 2.5em 2em;
+    }
+
+   .banner__titulo {
+       font-size: 18px;
+       font-weight: 700;
+    }
+
+    banner__texto { 
+       font-weight: 500;
+       margin: 1em 0;
+    }
+
+    banner__pesquisa {
+       background-color: transparent;
+       border: 1px solid var(--branco);
+       color: var(--branco);
+       border-radius: 24px;
+       padding: 1em;
+       width: 100%;
+    }
+
+    .banner_pesquisa::placeholder{
+        font-family: var(--fonte-principal);
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        color: var(--branco);
+        background: url("../img/Lupa.svg") no-repea
+            background-position:
+    }  
+    
+    .carrossel titulo {
+        color: var(--laranja);
+        background-color: var(--branco
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 2em 0 1em 0;
+        }
+
+        -cabeçalho_menu-hamburguer {
+            width: 24px;
+            height: 24px;
+            background-image: url("../img/Menu.svg");
+            background-repeat: no-repeat;
+            background-position: center;
+            display: inline-block;
+        }
+            . cabeçalho {
+            background-color: var(--branco);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            }
+            .container {
+            display: flex;
+            align-items: center;
+            .container_imagem {
+            padding: 1em;
+            }
+        }
+
+        .lista-menu
+…</li>
+
+
+<li class="lista-menu_ item":
+<a href="#" class="lista-menu_link">Desi
+</html>
+
+
+
+
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+:root{
+--cor-de-fundo: #EBECEE;
+--branco: #FFFFFF;
+--laranja: #EB9800;
+--azul-degrade: linear-gradient (97.54deg, #002F52 35.49%, #326589 165.37%);
+--fonte-principal: "Poppins";
+}
+        
+body {
+background-color: var(--cor-de-fundo);
+font-family: var(--fonte-principal);
+font-size: 16px;
+font-weight: 400;
+}
+
+
