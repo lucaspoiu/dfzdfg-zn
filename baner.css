@@ -31,69 +31,19 @@
         text-align: center;
         color: var(--branco);
         background: url("../img/Lupa.svg") no-repea
-            background-position:
+            background-position: 1em;
     }  
     
-    .carrossel titulo {
-        color: var(--laranja);
-        background-color: var(--branco
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 18px;
-        font-weight: 700;
-        padding: 2em 0 1em 0;
+    @media screen and (min-width: 1024px) {
+        .banner_titulo {
+            font-size: 36px;
         }
 
-        -cabeçalho_menu-hamburguer {
-            width: 24px;
-            height: 24px;
-            background-image: url("../img/Menu.svg");
-            background-repeat: no-repeat;
-            background-position: center;
-            display: inline-block;
+        .banner_pesquisa {
+            width: 50%;
         }
-            . cabeçalho {
-            background-color: var(--branco);
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            position: relative;
+
+        .banner_pesquisa::placeholder {
+            background-position: 7em;
             }
-            .container {
-            display: flex;
-            align-items: center;
-            .container_imagem {
-            padding: 1em;
-            }
-        }
-
-        .lista-menu
-…</li>
-
-
-<li class="lista-menu_ item":
-<a href="#" class="lista-menu_link">Desi
-</html>
-
-
-
-
-@import url("styles/header.css");
-@import url("styles/banner.css");
-@import url("styles/carrossel.css");
-:root{
---cor-de-fundo: #EBECEE;
---branco: #FFFFFF;
---laranja: #EB9800;
---azul-degrade: linear-gradient (97.54deg, #002F52 35.49%, #326589 165.37%);
---fonte-principal: "Poppins";
 }
-        
-body {
-background-color: var(--cor-de-fundo);
-font-family: var(--fonte-principal);
-font-size: 16px;
-font-weight: 400;
-}
-
-
